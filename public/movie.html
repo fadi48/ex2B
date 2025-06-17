@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rancid Tomatoes</title>
+    <link href="movie.css" type="text/css" rel="stylesheet" />
+    <link href="rotten.gif" type="image/gif" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Marty Stepp" />
+    <meta
+      name="description"
+      content="Homework assignment focusing on Cascading Style Sheets for layout."
+    />
+    <meta name="keywords" content="web programming, html, css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <script src="movie.js" defer></script>
+  </head>
+  <body>
+    <header class="banner">
+      <img src="banner.png" alt="Rancid Tomatoes" />
+    </header>
+    <h1 id="movie-title"></h1>
+    <div class="content">
+      <div class="info-section details">
+        <img
+          class="details-img"
+          id="movie-poster"
+          src=""
+          alt="general details"
+        />
+        <dl id="movie-details">
+          <!-- Details will be populated by JavaScript -->
+        </dl>
+      </div>
+      <div id="reviews-section">
+        <div id="rating-banner">
+          <img id="score-image" src="" alt="score" />
+          <span class="rating-number" id="score-value"></span>
+        </div>
+        <div id="reviews-container">
+          <div class="reviews-column left-column" id="left-reviews">
+            <!-- Left column reviews will be populated by JavaScript -->
+          </div>
+          <div class="reviews-column right-column" id="right-reviews">
+            <!-- Right column reviews will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+      <footer id="review-count">
+        <!-- Review count will be populated by JavaScript -->
+      </footer>
+    </div>
+  </body>
+</html>

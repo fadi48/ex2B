@@ -4,7 +4,7 @@
  * Fadi Shaer - 324992874
  * Tarek Jarjoura - 212771984
  * date: 17/06/2025
- * GitHub:
+ * GitHub: https://github.com/fadi48/ex2B
  */
 
 // Import important libraries
